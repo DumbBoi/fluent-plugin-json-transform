@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["grayson.chao@gmail.com"]
   spec.description   = %q{Input parser plugin which allows arbitrary transformation of input JSON}
   spec.summary       = %q{Input parser plugin which allows arbitrary transformation of input JSON}
-  spec.homepage      = "https://github.com/graysonc/fluent-plugin-json-transform"
+  spec.homepage      = "https://github.com/DumbBoi/fluent-plugin-json-transform"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

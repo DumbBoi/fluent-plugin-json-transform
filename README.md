@@ -1,11 +1,13 @@
 # JSON Transform parser plugin for Fluentd
 
 ## Overview
-This is a [parser plugin](http://docs.fluentd.org/articles/parser-plugin-overview) for fluentd. It is **INCOMPATIBLE WITH FLUENTD v0.10.45 AND BELOW.**
+This is a [parser plugin](http://docs.fluentd.org/articles/parser-plugin-overview) for fluentd.
+Tested with fleuntd v1.15.2 and ruby v2.7.6
 
-
-It was created for the purpose of modifying [**good.js**](https://github.com/hapijs/good) logs
-before storing them in Elasticsearch. It may not be useful for any other purpose, but be creative.
+git clone https://github.com/DumbBoi/fluent-plugin-json-transform /tmp/fluent-plugin-json-transform
+cd /tmp/fluent-plugin-json-transform/
+/usr/sbin/td-agent-gem build /tmp/fluent-plugin-json-transform/fluent-plugin-json-transform.gemspec
+/usr/sbin/td-agent-gem install --local /tmp/fluent-plugin-json-transform/fluent-plugin-json-transform-0.0.1.gem
 
 ## Installation
 
